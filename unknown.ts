@@ -10,4 +10,4 @@ function safeParse(s: string): unknown {
 }
 
 // Need to be careful with 'obj'!
-const obj = safeParse(someRandomString);
+const obj = safeParse("someRandomString");
